@@ -5,4 +5,5 @@ function daysOfAYear(val) {
 }
 
 let value = prompt("Enter the Year");
+value = parseInt(value, 10);
 alert(daysOfAYear(value));
