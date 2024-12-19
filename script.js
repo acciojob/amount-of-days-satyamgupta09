@@ -4,5 +4,5 @@ function daysOfAYear(val) {
 	else return "365";
 }
 
-let value = promt("Enter the Year");
+let value = prompt("Enter the Year");
 alert(daysOfAYear(value));
